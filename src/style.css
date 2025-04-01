@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.we-are h2::after {
+    display: inline-block;
+    background-color: orange;
+    content: "";
+    height: 2px;
+    width: 100%;
+}
