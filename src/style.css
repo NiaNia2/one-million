@@ -14,8 +14,16 @@
 
 .we-are h2::after {
     display: inline-block;
-    background-color: orange;
+    background-color: #f44336;
     content: "";
-    height: 2px;
+    height: 1px;
+    width: 100%;
+}
+
+.cards h2::after {
+    display: inline-block;
+    background-color: #f44336;
+    content: "";
+    height: 1px;
     width: 100%;
 }
